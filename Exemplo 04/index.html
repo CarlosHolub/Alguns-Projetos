@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Ex 04</title>
+</head>
+<body>
+    <div class="div1">
+        <label>Conversor de temperatura, Fahrenheit, Kelvin e Celcius</label><br><br>
+        <select id="origem">
+            <option>Selecione Um</option>
+            <option>Fahrenheit</option>
+            <option>Kelvin</option>
+            <option>Celcius</option>
+        </select><br><br>
+        <input type="text" id="n1"><br><br>
+        <select id="saida">
+            <option>Selecione Um</option>
+            <option id="f">Fahrenheit</option>
+            <option id="k">Kelvin</option>
+            <option id="c">Celcius</option>
+        </select><br><br>
+        <input type="button" value="calcular" onclick="temperatura()" class="button"><br><br>
+        <div id="res">Resultado</div>
+    </div>
+</body>
+</html>

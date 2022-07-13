@@ -1,0 +1,19 @@
+body {
+    max-width: 1920px;
+    background-color:black;
+    text-align: center;
+    margin-top: 350px;
+    color: white;
+}
+
+.div1 {
+    background-color: rgb(44, 42, 42);
+    padding: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 50px;
+}
+.button{
+    background-color: green;
+    color: white;
+}
